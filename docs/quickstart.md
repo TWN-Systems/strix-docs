@@ -46,8 +46,6 @@ LLM_API_KEY="xxxxxx"
 # LLM_TIMEOUT=600
 ```
 
-Source it before running: `source .env`
-
 Or choose one of the recommended providers:
 
 #### Option A: OpenRouter (Recommended)
