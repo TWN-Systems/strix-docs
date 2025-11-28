@@ -45,6 +45,7 @@ export STRIX_LLM="openrouter/google/gemini-2.0-flash-exp"
 export STRIX_LLM="openrouter/google/gemini-2.0-flash-exp:free"
 export STRIX_LLM="openrouter/meta-llama/llama-3.3-70b-instruct:free"
 export STRIX_LLM="openrouter/qwen/qwen-2.5-72b-instruct:free"
+export STRIX_LLM"openrouter/x-ai/grok-4.1-fast:free"
 ```
 
 > **Tip**: Browse available models and their pricing at [openrouter.ai/models](https://openrouter.ai/models). Models with a free tier show `:free` in their identifier.
@@ -59,32 +60,7 @@ export STRIX_LLM="openrouter/qwen/qwen-2.5-72b-instruct:free"
 | Llama 3.3 70B | `openrouter/meta-llama/llama-3.3-70b-instruct:free` | 128K | No | Free tier available |
 | Qwen 2.5 72B | `openrouter/qwen/qwen-2.5-72b-instruct:free` | 128K | No | Free, strong coding |
 
-## LiteLLM Proxy Configuration (Optional)
-
-For advanced users running a LiteLLM proxy:
-
-```yaml
-# litellm_config.yaml
-model_list:
-  - model_name: strix-model
-    litellm_params:
-      model: openrouter/anthropic/claude-3.5-sonnet
-      api_key: sk-or-your-key
-```
-
-Then configure Strix to use your proxy:
-
-```bash
-export STRIX_LLM="strix-model"
-export LLM_API_BASE="http://localhost:4000"
-```
-
-## Cost Optimization Tips
-
-1. **Use model routing**: OpenRouter can automatically select the cheapest model that meets your requirements
-2. **Set spend limits**: Configure daily/monthly limits in the OpenRouter dashboard
-3. **Monitor usage**: Check the usage page to track costs per model
-4. **Consider off-peak**: Some models have lower rates during off-peak hours
+s
 
 ## Common Issues & Troubleshooting
 
