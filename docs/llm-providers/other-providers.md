@@ -2,6 +2,9 @@
 
 Strix supports most provider compatible with [LiteLLM](https://docs.litellm.ai/docs/providers). This guide covers additional providers and custom configurations.
 
+## Disclaimer
+Note: not all model providers have been tested. if you notice any errors within our documentation, please submit an issue or make contact via #support in our discord.
+
 ## Known Incompatible Providers
 
 The following providers are **not compatible** with Strix:
