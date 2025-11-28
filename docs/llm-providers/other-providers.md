@@ -1,6 +1,6 @@
 # Other LiteLLM-Compatible Providers
 
-Strix supports any provider compatible with [LiteLLM](https://docs.litellm.ai/docs/providers). This guide covers additional providers and custom configurations.
+Strix supports most provider compatible with [LiteLLM](https://docs.litellm.ai/docs/providers). This guide covers additional providers and custom configurations.
 
 ## Known Incompatible Providers
 
